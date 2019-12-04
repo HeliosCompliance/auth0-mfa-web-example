@@ -1,6 +1,6 @@
 # auth0-mfa-web-example
 
-This project shows how an Auth0 user can list, add and delete his/her MFA devices using [MFA API](https://auth0.com/docs/multifactor-authentication/api) (which is just a part of [Authentication API](https://auth0.com/docs/api/authentication#multi-factor-authentication)) directly from a web page without any backend. Currently, it only supports adding SMS and OPT. Also, note that you can't delete "recovery-code" device using MFA API (use [Management API](https://auth0.com/docs/api/management/v2/#!/Guardian/delete_enrollments_by_id) for that or see my [other project](https://github.com/stszap/auth0-mfa-custom-login-form/)). It's based on [this](https://github.com/auth0-samples/auth0-javascript-samples/tree/master/01-Login) code.
+This project shows how an Auth0 user can list, add and delete his/her MFA devices using [MFA API](https://auth0.com/docs/multifactor-authentication/api) (which is just a part of [Authentication API](https://auth0.com/docs/api/authentication#multi-factor-authentication)) directly from a web page without any backend. Currently, it only supports adding SMS and OPT. Also, note that you can't delete "recovery-code" device using MFA API (use [Management API](https://auth0.com/docs/api/management/v2/#!/Guardian/delete_enrollments_by_id) for that). It's based on [this](https://github.com/auth0-samples/auth0-javascript-samples/tree/master/01-Login) code.
 
 **Configuration steps:**
 
